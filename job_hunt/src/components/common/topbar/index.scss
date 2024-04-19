@@ -1,0 +1,94 @@
+.topbar-main{
+    width: 100%;
+    height: 45px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+.logo-home{
+    height: 45px;
+    width: 45px;
+    margin-left: 15px;
+    top: 3px;
+}
+
+.react-icons{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    gap: 35px;
+    top: 3px;
+    cursor: pointer;
+
+
+    .home-icon{
+        margin-left: 30px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .home-icon:hover{
+        color: rgb(199, 101, 15);
+    }
+
+    .profile-icon{
+        height: 32px;
+        width: 35px;
+    }
+
+    .profile-icon:hover{
+        color: rgb(199, 101, 15);
+    }
+
+    .briefcase-icon{
+        height: 35px;
+        width: 35px;   
+    }
+
+    .briefcase-icon:hover{
+        color:  rgb(199, 101, 15);
+    }
+
+    .search-icon{
+        height: 35px;
+        width: 35px;
+    }
+
+    .search-icon:hover{
+        color:  rgb(199, 101, 15);
+    }
+
+    .message-icon{
+        height: 35px;
+        width: 35px;
+    }
+
+    .message-icon:hover{
+        color:  rgb(199, 101, 15);
+    }
+
+    .notif-icon{
+        height: 35px;
+        width: 35px;
+    }
+
+    .notif-icon:hover{
+        color: rgb(199, 101, 15);
+    }
+
+}
+
+.user-logo{
+    height: 35px;
+    width: 35px;   
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+ 
+
+

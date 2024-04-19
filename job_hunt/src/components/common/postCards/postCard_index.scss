@@ -1,0 +1,39 @@
+.posts-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+   // align-items: center; /* Center vertically */
+    min-height: 120px;
+    height: auto;
+    width: 150%;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(236, 158, 13);
+    border-radius: 10px;
+
+    .name {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+        margin: 0px 0 0 10px;
+    }
+
+    .status {
+        text-align: left;
+        padding-left: 60px;
+        font-family: 'system-ui, sans serif';
+        font-size: 14px;
+        font-weight: 400px;
+    }
+    
+    .timestamp{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        color: grey;
+        font-weight: 400;
+        padding-left: 60px;
+        margin-top: 10px;
+    }
+}
+
